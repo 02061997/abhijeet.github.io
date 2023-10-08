@@ -1,17 +1,17 @@
 # Data Scientist
 
 ###Education
-Master's in Computer Science
-University of Dayton
+- Master's in Computer Science
+- University of Dayton
 
 ###Work Experience 
-Walmart 
-Software Engineer
+- Walmart 
+- Software Engineer
 
 
 ###Project
-Project1
+- Project1
 
-Project2
+- Project2
 
-Project3
+- Project3
