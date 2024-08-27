@@ -1,13 +1,9 @@
----
-layout: default
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhijeet Gupta | Home</title>
+    <title>Abhijeet Gupta | Personal Website</title>
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
@@ -15,24 +11,110 @@ layout: default
 <header>
     <h1>Abhijeet Gupta</h1>
     <p>PhD Student in Computer Science | Researcher in AI and Machine Learning</p>
-    <img src="assets/img/profile.jpg" alt="Abhijeet Gupta" class="profile-img">
 </header>
 
-<nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="experience.html">Experience</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="skills.html">Skills</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-</nav>
-
 <div class="container">
-    <p>Welcome to my professional website! I am Abhijeet Gupta, a PhD student in Computer Science at the University of Dayton, specializing in Artificial Intelligence, Machine Learning, and Reinforcement Learning.</p>
-    <p>Explore my research projects, work experience, and publications to learn more about my journey and expertise in the field of computer science.</p>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am currently pursuing my PhD in Computer Science at the University of Dayton, where I focus on Artificial Intelligence, Machine Learning, and Computer Vision. My research is dedicated to advancing algorithms in reinforcement learning and feature selection.</p>
+        <h3>Education</h3>
+        <ul>
+            <li><strong>Doctorate (PhD), Computer Science</strong><br>University of Dayton, August 2023 - December 2026 (Expected)</li>
+            <li><strong>Masters of Computer Science</strong><br>University of Dayton, January 2021 - August 2022</li>
+        </ul>
+        <h3>Activities</h3>
+        <ul>
+            <li>Active Member of AAAI</li>
+            <li>Member of CodePath</li>
+            <li>Member of SWE (Society of Women Engineers)</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Experience</h2>
+        <div class="job">
+            <h3>Software Engineer, Walmart Global Tech</h3>
+            <p><em>April 2023 - August 2023 | Dallas, Texas</em></p>
+            <ul>
+                <li>Automated the data migration process of over a million records using Python scripts and Azure Cosmos Client library.</li>
+                <li>Managed configuration and orchestration for Node.js applications using Kubernetes and Docker.</li>
+                <li>Conducted root cause analysis for production issues, improving system throughput by 15%.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Research Assistant, University of Dayton</h3>
+            <p><em>August 2022 - April 2023 | Dayton, Ohio</em></p>
+            <ul>
+                <li>Conducted in-depth data mining of 420 LinkedIn profiles, capturing and analyzing 23 data points.</li>
+                <li>Developed a Python application for facial recognition with an accuracy of 99.38%.</li>
+                <li>Improved class attendance records using advanced facial recognition algorithms.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Intern, Walmart Bentonville</h3>
+            <p><em>June 2022 - August 2022 | Bentonville, Arkansas</em></p>
+            <ul>
+                <li>Devised a machine learning model to improve trailer visibility with a 90% accuracy rate.</li>
+                <li>Transformed Random Forest models for load type prediction with high precision and recall.</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <h3>Software Engineer, Mindzcloud</h3>
+            <p><em>July 2019 - August 2020 | Nagpur, India</em></p>
+            <ul>
+                <li>Developed high-quality code in Apex and Visualforce, leading to a 30% improvement in applications.</li>
+                <li>Restructured Trigger methods in Apex for better performance and reliability.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="projects">
+        <h2>Research Projects</h2>
+        <div class="project">
+            <h3>Automated Feature Selection for Reinforcement Learning</h3>
+            <p>Developed a Lunar Lander reinforcement learning environment using the Gym library, and trained a PPO model with a mean reward of 200. Achieved a 40% improvement in metrics by optimizing features using a new framework.</p>
+        </div>
+
+        <div class="project">
+            <h3>E-commerce Recommendation System</h3>
+            <p>Implemented and fine-tuned various recommendation algorithms, leading to a 10% improvement in both MAP and NDCG scores.</p>
+        </div>
+
+        <div class="project">
+            <h3>Optimized Pathfinding in Multi-Agent Gridworld</h3>
+            <p>Led the development of a multi-agent gridworld environment, applying search algorithms and reinforcement learning techniques to improve performance.</p>
+        </div>
+
+        <div class="project">
+            <h3>Career Prediction based on Historical Background</h3>
+            <p>Developed a machine learning model to predict career paths based on LinkedIn profiles, achieving high accuracy rates in predicting domain and position.</p>
+        </div>
+    </section>
+
+    <section id="skills">
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>Programming Languages: Python, Java, C++, MATLAB, SQL, NoSQL</li>
+            <li>Frameworks & Technologies: TensorFlow, Keras, Gym, Tableau, Pandas</li>
+        </ul>
+    </section>
+
+    <section id="publications">
+        <h2>Publications</h2>
+        <ul>
+            <li><a href="https://ieeexplore.ieee.org/abstract/document/10089642">Multi Output Career Prediction - Dataset, Method, and Benchmark Suite</a></li>
+            <li>“Imposter Injection: Learning to Select Feature in Reinforcement Learning - Under Review”</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email: <a href="mailto:abhijeetmukeshgupta@gmail.com">abhijeetmukeshgupta@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/abhijeetgupta02/">abhijeetgupta02</a></p>
+    </section>
 </div>
 
 </body>
